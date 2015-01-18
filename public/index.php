@@ -5,11 +5,11 @@
 
 require '../vendor/autoload.php';
 
-use Symfony\Component\HttpFoundation\Request;
+use Kapscos\Application;
 use Symfony\Component\HttpFoundation\Response;
 
-$request = Request::createFromGlobals();
+$application = Application::getApplication();
+$name = $application->getRequest()->query->get('name', 'Guest');
 
-$name = $request->query->get('name', 'Guest');
 $response = new Response('Hello ' . $name);
 $response->send();

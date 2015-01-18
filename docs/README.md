@@ -90,6 +90,10 @@ In next line, we are creating new `Response` object. For now, we keep it a simpl
 
 Last line is simple flashing the response that can be seen on the browser.
 
+## Going forward.
+
+Till now, this all exercise was like warm-up. Now we have to do many changes in each version. Thus coming versions have there own documentation files. Next version we have to make is `0.1.2`, so its documents are present in [v0.1.2.md](v0.1.2.md) file.
+
 [http foundation]: http://symfony.com/doc/current/components/http_foundation/introduction.html
 [PSR-0]: http://www.php-fig.org/psr/psr-0/
 [PSR-4]: http://www.php-fig.org/psr/psr-4/
